@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/checkout")
-@CrossOrigin(origins = "*") // Crucial: This stops your React app from being blocked by CORS during testing!
 @RequiredArgsConstructor
 public class CheckoutController {
 
