@@ -17,7 +17,7 @@ public class CorsConfig {
                         .allowedOriginPatterns(
                                 "http://localhost:3000",
                                 "http://localhost:5173",
-                                "https://pos-inventory-frontend-gamma.vercel.app"  // Add your real Vercel URL here
+                                "https://pos-inventory-frontend-gamma.vercel.app"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")

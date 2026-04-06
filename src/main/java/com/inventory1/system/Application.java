@@ -14,8 +14,7 @@ public class Application {
 
 	@PostConstruct
 	public void init() {
-		// This forces Spring Boot to always run in Nairobi time (EAT)
+		// Set default timezone to East Africa Time (EAT)
 		TimeZone.setDefault(TimeZone.getTimeZone("Africa/Nairobi"));
 	}
-
 }
